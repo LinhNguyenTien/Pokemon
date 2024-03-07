@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="- Ng&#x1b0;&#x1edd;i ch&#x1a1;i ch&#x1ecd;n 2 pokemon gi&#x1ed1;ng nhau v&#xe0; th&#x1ecf;a m&#x1ed9;t trong c&#xe1;c  &#x111;i&#x1ec1;u ki&#x1ec7;n sau: + Hai pokemon n&#x1eb1;m tr&#xea;n c&#xf9;ng m&#x1ed9;t h&#xe0;ng ho&#x1eb7;c m&#x1ed9;t c&#x1ed9;t v&#xe0; gi&#x1eef;a ch&#xfa;ng kh&#xf4;ng c&#xf3; pokemon n&#xe0;o. + Gi&#x1eef;a hai pokemon c&#xf3; m&#x1ed9;t &#x111;&#x1b0;&#x1edd;ng g&#x1ea5;p kh&#xfa;c &#x111;&#x1b0;&#x1ee3;c t&#x1ea1;o th&#xe0;nh t&#x1eeb; hai ho&#x1eb7;c ba &#x111;o&#x1ea1;n tr&#x1ed1;ng. - M&#x1ed7;i c&#x1eb7;p pokemon th&#x1ecf;a &#x111;i&#x1ec1;u ki&#x1ec7;n s&#x1ebd; cho ng&#x1b0;&#x1edd;i ch&#x1a1;i 10 &#x111;i&#x1ec3;m (t&#x1ed1;i &#x111;a 300 &#x111;i&#x1ec3;m) - Sau khi tr&#xf2; ch&#x1a1;i k&#x1ebf;t th&#xfa;c ho&#x1eb7;c khi ng&#x1b0;&#x1edd;i ch&#x1a1;i thua cu&#x1ed9;c &#x111;i&#x1ec3;m s&#x1ebd; &#x111;&#x1b0;&#x1ee3;c l&#x1b0;u v&#xe0;o h&#x1ec7; th&#x1ed1;ng. "/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[400, 307]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="35" pref="20" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="163" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="21" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="16" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="H&#x1b0;&#x1edb;ng d&#x1eab;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x110;&#xe3; hi&#x1ec3;u"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="- Ng&#x1b0;&#x1edd;i ch&#x1a1;i ch&#x1ecd;n 2 pokemon gi&#x1ed1;ng nhau v&#xe0; th&#x1ecf;a m&#x1ed9;t trong c&#xe1;c &#xa;&#x111;i&#x1ec1;u ki&#x1ec7;n sau:&#xa;+ Hai pokemon n&#x1eb1;m tr&#xea;n c&#xf9;ng m&#x1ed9;t h&#xe0;ng ho&#x1eb7;c m&#x1ed9;t c&#x1ed9;t v&#xe0; gi&#x1eef;a&#xa;ch&#xfa;ng kh&#xf4;ng c&#xf3; pokemon n&#xe0;o.&#xa;+ Gi&#x1eef;a hai pokemon c&#xf3; m&#x1ed9;t &#x111;&#x1b0;&#x1edd;ng g&#x1ea5;p kh&#xfa;c &#x111;&#x1b0;&#x1ee3;c t&#x1ea1;o th&#xe0;nh t&#x1eeb; hai&#xa;ho&#x1eb7;c ba &#x111;o&#x1ea1;n tr&#x1ed1;ng.&#xa;- M&#x1ed7;i c&#x1eb7;p pokemon th&#x1ecf;a &#x111;i&#x1ec1;u ki&#x1ec7;n s&#x1ebd; cho ng&#x1b0;&#x1edd;i ch&#x1a1;i 10 &#x111;i&#x1ec3;m (t&#x1ed1;i &#x111;a&#xa;320 &#x111;i&#x1ec3;m)&#xa;- Sau khi tr&#xf2; ch&#x1a1;i k&#x1ebf;t th&#xfa;c ho&#x1eb7;c khi ng&#x1b0;&#x1edd;i ch&#x1a1;i thua cu&#x1ed9;c &#x111;i&#x1ec3;m s&#x1ebd; &#x111;&#x1b0;&#x1ee3;c&#xa;l&#x1b0;u v&#xe0;o h&#x1ec7; th&#x1ed1;ng. "/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
